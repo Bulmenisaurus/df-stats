@@ -53,7 +53,7 @@ const getGraphQLData = (query, graphApiUrl) => __awaiter(void 0, void 0, void 0,
 const getIncompleteLobbies = () => __awaiter(void 0, void 0, void 0, function* () {
     const query = `
     query {
-        arenas(first: 1000, where: {configHash: "0xa5270a267313d923a05a95b11d2be9b7d9e7c5194bf9d5d9f3ee28366a7809c4", gameOver: false, firstMover_not: null}) {
+        arenas(first: 1000, where: {configHash: "0x7b1158a60256b79ad803f3330b0cdcbd0f7ceebf3fe0473c320abf425577b4a5", gameOver: false, firstMover_not: null}) {
         firstMover {
           id
         },
