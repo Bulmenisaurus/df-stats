@@ -67,7 +67,7 @@ interface Arena {
 const getIncompleteLobbies = async (): Promise<Arena[]> => {
     const query = `
     query {
-        arenas(first: 1000, where: {configHash: "0x7b1158a60256b79ad803f3330b0cdcbd0f7ceebf3fe0473c320abf425577b4a5", gameOver: false, firstMover_not: null}) {
+        arenas(first: 1000, where: {configHash: "0xc8b6b767570b2e39b622c6d5a8c4ac65a61d50a94f4312ac171483c95b2ec996", gameOver: false, firstMover_not: null}) {
         firstMover {
           id
         },
